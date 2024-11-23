@@ -1,0 +1,13 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "cd spa && yarn dev",
+        "build": "cd spa && yarn build",
+        "build:uat": "cd spa && yarn build:uat",
+        "preinstall": "node ./scripts/preventInstall.js"
+    },
+    "dependencies": {
+        "pinia-plugin-persistedstate": "^3.0.2",
+        "pluralize": "^8.0.0"
+    }
+}
